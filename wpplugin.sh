@@ -20,3 +20,4 @@ pure() {
 export -f pure wpplu
 [ -z $2 ] && echo "Yang bener" && exit
 parallel -j $2 pure :::: $1
+# coded by ./meicookies
